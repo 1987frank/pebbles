@@ -95,12 +95,12 @@ for(i=0;i<my_bitvector.size;++i){
 	}
 }
 
-printf("\n testing if bit worked\n");
+printf("\n next set \n");
 
 for(i=0;i<my_bitvector.size;++i){
 	if(is_bitset(&my_bitvector,i+1)){
 		printf("%d ",i+1);
-		//clear_bitvec(&my_bitvector,i+1);
+		clear_bitvec(&my_bitvector,i+1);
 	}
 }
 
